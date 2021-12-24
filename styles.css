@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Bhaina+2:wght@500&family=Dosis:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Dosis', sans-serif;
+    background-color:   #818cf8;  
+
+}
+.heading{
+
+    padding: 3rem 0rem;
+    text-align: center;
+}
+input{
+padding: 1rem;
+border-radius: 1rem;
+
+}
+
+ 
+.divintialprice{
+    text-align: center; 
+    padding: 1rem 0rem;
+}
+
+.divnoofstock{
+    text-align: center;
+    padding: 1rem 0rem; 
+}
+.divcurrentprice{
+    text-align: center;
+    padding: 1rem 0rem 2rem 0rem; 
+}
+
+.submit-btn{
+    margin: auto;
+    display: block;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem;
+} 
+
+#answer{
+    margin: 1rem;
+    color: #818cf8;
+    background-color: white;
+    padding: 2rem 0rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}

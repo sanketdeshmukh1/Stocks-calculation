@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2 class="heading">Profit/Loss  Calculator</h2>
-    <input type="number" placeholder="Enter initial Price here" class="intial-price">
-    <input type="number" placeholder="Enter number of stocks here" class="no-stocks">
-    <input type="number" placeholder="Enter current Price here" class="current-price">
+    <h1 class="heading">Profit/Loss  Calculator</h1>
+
+   <div class="divintialprice"> <input type="number" placeholder="Enter initial Price here" class="intial-price"></div>
+
+    <div class="divnoofstock"><input type="number" placeholder="Enter number of stocks here" class="no-stocks"></div>
+
+   <div class="divcurrentprice"> <input type="number" placeholder="Enter current Price here" class="current-price"></div>
+
    <button class="submit-btn" > Calculate</button>
-   <div class="answer"></div>
+   
+   <div id="answer"></div>
     
     <script src="app.js"></script>
 </body>

@@ -2,9 +2,11 @@ var intialprice=document.querySelector(".intial-price");
 var nostocks=document.querySelector(".no-stocks");
 var currentprice=document.querySelector(".current-price");
 var submitbtn=document.querySelector(".submit-btn");
-var ans=document.querySelector(".answer");
+var ans=document.querySelector("#answer");
+document.getElementById("answer").style.display = "none";
 
 function validateresult(){
+    document.getElementById("answer").style.display = "block";
 var ip=Number(intialprice.value);
 var cp=Number(currentprice.value);
 var stckcnt=Number(nostocks.value);
@@ -12,7 +14,7 @@ var stckcnt=Number(nostocks.value);
 if(ip>cp)
 {
 var loss=(ip-cp)*stckcnt;
-var lossperc=(loss/ip)*100;
+var lossperc=Math.round((loss/ip)*100);
 ans.innerText="Your Loss is " +loss+" and Loss Percentage is "+lossperc;
 }else{
     var profit=(cp-ip)*stckcnt;
