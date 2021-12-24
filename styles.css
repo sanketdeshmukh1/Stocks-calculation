@@ -19,9 +19,10 @@ body{
     text-align: center;
 }
 input{
+    width: 20rem;
 padding: 1rem;
 border-radius: 1rem;
-
+text-align: center;
 }
 
  
